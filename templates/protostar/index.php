@@ -126,6 +126,9 @@ else
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/invisible_styles.css" type="text/css" />
 	<jdoc:include type="head" />
 </head>
 <body class="site <?php echo $option
@@ -214,5 +217,9 @@ else
 		</div>
 	</footer>
 	<jdoc:include type="modules" name="debug" style="none" />
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/jquery.slim.min.js"></script>
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/popper.min.js"></script>
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/template.js"></script>
 </body>
 </html>
