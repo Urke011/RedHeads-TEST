@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.1.0" client="site" method="upgrade">
+    <name>Mathema vertical timeline</name>
+    <author>Uros Rajkovic</author>
+    <version>1.0.0</version>
+    <description>Displays a dynamic timeline</description>
+    <files>
+        <filename>mod_vertical_timeline.xml</filename>
+        <filename module="mod_vertical_timeline">mod_vertical_timeline</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="settings" label="Settings">
+                <field name="catid" type="category" extension="com_content" multiple="true" size="10" default=""
+                       label="Select Category" description="Select category"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>

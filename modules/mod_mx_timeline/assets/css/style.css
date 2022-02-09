@@ -1,0 +1,60 @@
+.mos-img img {display: none !important;}
+	/* Wrapper and keeper */
+	.timeline{ margin-top: 100px; width: 100%; overflow: visible; height: auto; position: relative; -webkit-transition: height 0.8s cubic-bezier(0.77, 0, 0.2, 1); -moz-transition: height 0.8s cubic-bezier(0.77, 0, 0.2, 1); transition: height 0.8s cubic-bezier(0.77, 0, 0.2, 1); }
+	.timeline:before{ width: 1px; height: 100%; position: absolute; content:''; left:50%; margin-left: -0.5px; background-color: #dfdfdf; margin-top: -100px; }
+	.timeline.news-loading{ overflow: hidden; }
+	/* Dates */
+
+	/* Notes */
+	.timeline .note{ width: 50%;  float: left; clear: left; margin: 25px auto; position: relative; cursor: default; }
+	.timeline .date + .note{ margin-top: -100px; }
+	.timeline .note .note-inner{ color: #9E9E9E; border: 1px solid #E3E3E3; width: 90%; float: left; background-color: #fff;  -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+	.timeline .note .note-inner:before,.timeline .note .note-inner:after{ width: 10%; background: #E3E3E3; content:''; position: absolute; top: 50px; right: 0; height: 1px; }
+	.timeline .note .note-inner:after{ width: 9px; height: 9px; top: 45.5px; right: -4.5px; border-radius: 100%; }
+	.timeline .note:hover .note-inner{ color: #000; background-color: #fafafa;  -ms-transform: scale(1.03); -webkit-transform: scale(1.03); transform: scale(1.03); border-color: #ddd; box-shadow: 0 34px 51px -20px rgba(0,0,0,0.24); }
+	.timeline .note:hover .note-inner:before,.timeline .note:hover .note-inner:after{ background: #ccc; }
+	/* Fixed to right notes */
+	.timeline .note:nth-of-type(2n){ float: right; clear: right; }
+	.timeline .note:nth-of-type(2n) .note-inner{ float: right; }
+	.timeline .note:nth-of-type(2n) .note-inner:before{ left: 0; right: auto; }
+	.timeline .note:nth-of-type(2n) .note-inner:after{ left: -4.5px; right: auto; }
+	/* Note Texts and image */
+	.timeline .note .note-image{ width: 100.5%; height: auto; overflow: hidden; margin: -1px; }
+	.timeline .note .note-image img{ width: 100.5%; width: calc(100% + 2px); position: relative; left: -1px; right: -1px; top: -1px; display: block; height: auto; }
+	.timeline .note .note-inner .note-texts{ padding: 30px 32px 28px; position: relative; }
+	.timeline .note .note-date{ color: #979797; font-size: 14px; letter-spacing: -0.2px; font-style: italic; }
+	.timeline .note .note-title{ font-size: 16px; letter-spacing: -0.2px; font-weight: 600; }
+	.timeline .note .note-desc{ margin-top:10px; color: inherit; font-size: 15px; line-height: 26px; }
+	/* Note Button */
+	.timeline .note .note-butt{ position: absolute; bottom: 0; display: block; margin-top: 0px; right: 3%; }	
+	.timeline .note .note-button{ position: absolute; bottom: 0; display: block; width: 46px; height: 46px; line-height: 46px; margin-bottom: -25px; right: 3%; background-color: #fff; border: 1px solid #E3E3E3; border-radius: 100%; text-align: center; backface-visibility: hidden; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+	.timeline .note .note-button i{font-size: 15px; color: #9e9e9e; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 0.2s; }
+		@media screen and (max-width: 568px){
+			.timeline .note .note-button i{ font-size: 15px; }
+		}
+	.timeline .note:hover .note-button i{ color: white !important; }
+	.timeline .note .note-button:hover{ -ms-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1); }
+	.timeline .note .note-button:active{ -ms-transform: scale(0.9); -webkit-transform: scale(0.9); transform: scale(0.9); }
+	/* Load More - No More Buttons */
+	.timeline .load-more-button,.timeline .no-more-button{ display: -ms-flexbox; display: flex; position: absolute; bottom:0; left:50%; margin-left: -37.5px; width: 75px; height: 75px; line-height: 15px; -ms-flex-pack: center; -ms-flex-align: center; justify-content: center; align-items: center; border-radius: 100%; font-size: 12px; font-weight: 600; text-align: center; color: white; -webkit-transition: all 0.4s; -moz-transition: all 0.4s; transition: all 0.4s; }
+	.timeline .no-more-button{ display: none; cursor: default; border: none; font-size: 14px }
+	.timeline .load-more-button:hover{ opacity: 0.85; }
+	.timeline .load-more-button span{ position: relative; z-index: 2; }
+	.timeline .news{ clear: both; margin-bottom: 80px; }
+		/* History Section - Responsive Options */
+		@media screen and (max-width: 568px){
+			.timeline .note{ float: none !important; width: 100% !important; margin-top: 50px !important; }
+			.timeline .note .note-inner{ width: 100% !important; float: none !important; }
+			.timeline .note .note-inner:before, .timeline .note .note-inner:after{ display: none; }
+			.timeline .news{ margin-bottom: 0; height: 100px; }
+			.timeline .note .note-dropdown.show{ transform:translate3d(10px, -10%, 0px) scale(1) !important; }
+			.timeline:before{ width: 0px !important; }
+		}
+
+	.timeline .note:hover .note-button{
+		background-color: #666 !important; border-color: #666 !important;
+	}
+
+	.timeline .no-more-button{
+		background-color: #A55B5B !important;
+	}

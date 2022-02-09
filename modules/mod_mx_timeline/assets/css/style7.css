@@ -1,0 +1,179 @@
+.mos-img img {display: none !important;}
+.tml ul.timeline {
+ list-style-type:none;
+ margin:0;
+ padding:0;
+ position:relative;
+ color:#333;
+ margin:0 auto
+}
+
+.tml ul.timeline:before {
+ content:'';
+ display:block;
+ position:absolute;
+ top:0;
+ bottom:-20px;
+ left:50%;
+ width:2px;
+ background-color:#333;
+ -webkit-transform:translateX(-50%);
+ -o-transform:translateX(-50%);
+ -ms-transform:translateX(-50%);
+ transform:translateX(-50%)
+}
+.tml ul.timeline>li {
+ width:50%;
+ position:relative;
+ padding:1.5em 0
+}
+.tml ul.timeline>li:last-child {
+ margin-bottom:0
+}
+.tml ul.timeline>li h3 {
+ font-size:1.5em
+}
+.tml ul.timeline>li h4 {
+ color:#555;
+ font-size:.9em;
+ text-transform:uppercase;
+ letter-spacing:3px
+}
+.tml ul.timeline>li .date {
+ margin-bottom:2em;
+ text-transform:uppercase;
+ letter-spacing:3px;
+ font-size:.8em;
+ font-family:Oswald,sans-serif
+}
+.tml ul.timeline>li p {
+ color:#555
+}
+.tml ul.timeline>li .icon,
+.tml ul.timeline>li:after,
+.tml ul.timeline>li:before {
+ position:absolute;
+ top:4.6em;
+ -webkit-transform:translateY(-50%);
+ -o-transform:translateY(-50%);
+ -ms-transform:translateY(-50%);
+ transform:translateY(-50%);
+ content:'';
+ display:block;
+ background-color:#fff
+}
+.tml ul.timeline>li .icon {
+ z-index:1
+}
+
+.tml ul.timeline>li .icon:before {
+ position:absolute;
+ content:'';
+ display:block;
+ height:1px;
+ width:55px;
+ top:50%;
+ background-color:rgba(0,0,0,.9)
+}
+.tml ul.timeline>li .icon:after {
+ position:absolute;
+ content:'';
+ display:block;
+ width:20px;
+ height:20px;
+ border-radius:20px;
+ box-shadow:0 0 0 6px #333;
+ top:50%;
+ background-color:#fff
+}
+.tml ul.timeline>li:before {
+ width:40px;
+ height:40px;
+ border-radius:40px;
+ box-shadow:0 0 0 2px #333
+}
+.tml ul.timeline>li:after {
+ width:22px;
+ height:44px
+}
+.tml ul.timeline>li:nth-child(odd) {
+ left:50%;
+ padding-left:40px
+}
+.tml ul.timeline>li:nth-child(odd):before {
+ left:-20px
+}
+.tml ul.timeline>li:nth-child(odd):after {
+ left:-23px
+}
+.tml ul.timeline>li:nth-child(odd) .icon {
+ left:0;
+ -webkit-transform:translateY(-50%) translateX(-100%) translateX(-61px);
+ -o-transform:translateY(-50%) translateX(-100%) translateX(-61px);
+ -ms-transform:translateY(-50%) translateX(-100%) translateX(-61px);
+ transform:translateY(-50%) translateX(-100%) translateX(-61px);
+ width: 200px;
+}
+.tml ul.timeline>li:nth-child(odd) .icon:after,
+.tml ul.timeline>li:nth-child(odd) .icon:before {
+ left:100%;
+ margin-left:5px
+}
+.tml ul.timeline>li:nth-child(odd) .icon:after {
+ margin-left:0;
+ -webkit-transform:translateY(-50%) translateX(-50%) translateX(61px);
+ -o-transform:translateY(-50%) translateX(-50%) translateX(61px);
+ -ms-transform:translateY(-50%) translateX(-50%) translateX(61px);
+ transform:translateY(-50%) translateX(-50%) translateX(61px)
+}
+.tml ul.timeline>li:nth-child(even) {
+ padding-right:40px;
+ text-align:right
+}
+.tml ul.timeline>li:nth-child(even):before {
+ right:-20px
+}
+.tml ul.timeline>li:nth-child(even):after {
+ right:-23px
+}
+.tml ul.timeline>li:nth-child(even) .icon {
+ right:0;
+  width: 200px;
+ -webkit-transform:translateY(-50%) translateX(100%) translateX(61px);
+ -o-transform:translateY(-50%) translateX(100%) translateX(61px);
+ -ms-transform:translateY(-50%) translateX(100%) translateX(61px);
+ transform:translateY(-50%) translateX(100%) translateX(61px)
+}
+.tml ul.timeline>li:nth-child(even) .icon:after,
+.tml ul.timeline>li:nth-child(even) .icon:before {
+ right:100%;
+ margin-right:5px
+}
+.tml ul.timeline>li:nth-child(even) .icon:after {
+ margin-right:0;
+ -webkit-transform:translateY(-50%) translateX(50%) translateX(-61px);
+ -o-transform:translateY(-50%) translateX(50%) translateX(-61px);
+ -ms-transform:translateY(-50%) translateX(50%) translateX(-61px);
+ transform:translateY(-50%) translateX(50%) translateX(-61px)
+}
+@media only screen and (max-width:767px) {
+ .tml ul.timeline:before {
+  display:none
+ }
+ .tml ul.timeline li {
+  width:100%
+ }
+ .tml ul.timeline li:nth-child(2n) {
+  padding-right:0;
+  text-align:left
+ }
+ .tml ul.timeline li:nth-child(2n+1) {
+  left:0;
+  padding-left:0
+ }
+ .tml ul.timeline li .icon,
+ .tml ul.timeline li:before {
+  display:none
+ }
+
+}
