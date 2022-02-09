@@ -4,8 +4,8 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br />Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Joomla_test';
-	public $editor = 'jce';
+	public $sitename = 'joomla_test';
+	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
 	public $access = '1';
@@ -16,10 +16,10 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = '';
-	public $db = 'joomal3';
-	public $dbprefix = 'ezr0y_';
+	public $db = 'redheads';
+	public $dbprefix = 'redheads_';
 	public $live_site = '';
-	public $secret = 'nkEI6xUMDMI5ennh';
+	public $secret = 'uFvEtwMSQUI8t9im';
 	public $gzip = '0';
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
@@ -33,7 +33,7 @@ class JConfig {
 	public $mailonline = '1';
 	public $mailer = 'mail';
 	public $mailfrom = 'urosrajkovic011@hotmail.com';
-	public $fromname = 'Joomla_test';
+	public $fromname = 'joomla_test';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -57,8 +57,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = 'C:\\xampp_php_7\\htdocs\\Joomla_3\\administrator/logs';
-	public $tmp_path = 'C:\\xampp_php_7\\htdocs\\Joomla_3/tmp';
+	public $log_path = 'C:\\xampp\\htdocs\\Joomla_3\\administrator/logs';
+	public $tmp_path = 'C:\\xampp\\htdocs\\Joomla_3/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $shared_session = '0';
