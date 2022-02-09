@@ -8,3 +8,4 @@
 2022-02-08T09:05:03+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
 2022-02-08T12:49:16+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
 2022-02-08T12:49:19+00:00	INFO ::1	joomlafailure	Empty password not allowed.
+2022-02-09T09:49:19+00:00	INFO ::1	joomlafailure	Username and password do not match or you do not have an account yet.
