@@ -1,0 +1,6 @@
+li.nav-item:nth-child(n+2):before {
+
+}
+.container{
+    max-width: 100% !important;
+}
