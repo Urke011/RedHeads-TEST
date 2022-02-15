@@ -4,3 +4,18 @@ li.nav-item:nth-child(n+2):before {
 .container{
     max-width: 100% !important;
 }
+/* need to changes this */
+
+ .logoPic {
+     object-fit: contain;
+ }
+ .rightNavLinks{
+     align-self: end;
+ }
+ .rightNavLinks li a {
+     color: #0a0e14 !important;
+ }
+table {
+    table-layout: fixed;
+    width: 400px;
+}

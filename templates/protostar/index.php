@@ -121,6 +121,9 @@ if ($this->params->get('logoFile')) {
           href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/invisible_styles.css"
           type="text/css"/>
     <jdoc:include type="head"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 </head>
 <body class="site <?php echo $option
     . ' view-' . $view
@@ -149,37 +152,44 @@ if ($this->params->get('logoFile')) {
             </div>
         </header>
         <!-- bootstrap NAVBAR -->
-        <nav class="navbar navbar-light bg-light">
-            <div class="container-fluid" >
-                    <img src="images/icons/headers/logo.png" alt="" height="57px">
-
-                <div class="d-flex ">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 list-group list-group-horizontal">
-                        <li class="nav-item me-3">
-                            <a class="nav-link active" aria-current="page" href="#">Aktuelles </a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link active" href="#">Über Uns</a>
-                        </li>
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle shadow-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Unternehmensbereiche
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Embedded</a>
-                                <a class="dropdown-item" href="#">Web & Desktop</a>
-                                <a class="dropdown-item" href="#">Data Science</a>
-                                <a class="dropdown-item" href="#">Mobile</a>
-                            </div>
-                        </div>
-                        <li class="nav-item me-3">
-                            <a class="nav-link  active" href="#">Mitarbeiter</a>
-                        </li>
-                        <li class="nav-item me-3">
-                            <a class="nav-link  active" href="#">Karriere</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/icons/headers/logo.png" height="57px" class="logoPic">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end rightNavLinks" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Aktuelles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  active" href="#">Kontakt</a>
+                            <a class="nav-link" href="#">Über Uns</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                               data-bs-toggle="dropdown" aria-expanded="false">
+                                Unternehmensbereiche
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Embedded </a></li>
+                                <li><a class="dropdown-item" href="#">Web & Desktop </a></li>
+                                <li><a class="dropdown-item" href="#">Data Science </a></li>
+                                <li><a class="dropdown-item" href="#">Mobile</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Mitarbeiter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Karriere </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kontakt</a>
                         </li>
                     </ul>
                 </div>
@@ -220,7 +230,35 @@ if ($this->params->get('logoFile')) {
                 <div class="clearfix"></div>
                 <jdoc:include type="modules" name="position-2" style="none"/>
                 <!-- End Content -->
+                <div class="d-flex justify-content-evenly">
+                <div class="card" style="width: 10rem;">
+                    <img src="images/icons/image.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Embedded</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <img src="images/icons/image (1).svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Web & Desktop</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <img src="images/icons/image (2).svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Data Science</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 10rem;">
+                    <a href="">
+                        <img src="images/icons/image (3).svg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Mobile</p>
+                        </div>
+                    </a>
 
+                </div>
+                </div>
             </main>
             <?php if ($position7ModuleCount) : ?>
                 <div id="aside" class="span3">
