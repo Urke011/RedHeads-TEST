@@ -57,8 +57,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = 'C:\\xampp_php_7\\htdocs\\Joomla_3\\administrator/logs';
-	public $tmp_path = 'C:\\xampp_php_7\\htdocs\\Joomla_3/tmp';
+	public $log_path = '/tmp/redheads-logs/joomla';
+	public $tmp_path = '/tmp/redheads';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $shared_session = '0';
@@ -99,3 +99,5 @@ class JConfig {
 	public $cookie_path = '';
 	public $asset_id = '1';
 }
+
+        
