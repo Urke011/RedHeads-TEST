@@ -230,35 +230,6 @@ if ($this->params->get('logoFile')) {
                 <div class="clearfix"></div>
                 <jdoc:include type="modules" name="position-2" style="none"/>
                 <!-- End Content -->
-                <div class="d-flex justify-content-evenly">
-                <div class="card" style="width: 10rem;">
-                    <img src="images/icons/image.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Embedded</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 10rem;">
-                    <img src="images/icons/image (1).svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Web & Desktop</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 10rem;">
-                    <img src="images/icons/image (2).svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <p class="card-text">Data Science</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 10rem;">
-                    <a href="">
-                        <img src="images/icons/image (3).svg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Mobile</p>
-                        </div>
-                    </a>
-
-                </div>
-                </div>
             </main>
             <?php if ($position7ModuleCount) : ?>
                 <div id="aside" class="span3">
