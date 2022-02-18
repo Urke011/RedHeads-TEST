@@ -10,6 +10,10 @@
     display: block;
     width: 50%;
 }
+.width-65 {
+    display: block;
+    width: 65%;
+}
 
 .width-75 {
     display: block;
@@ -30,4 +34,71 @@
     margin: 0 auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+/* h styles */
+h1 {
+    font-size: calc(32px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(40px + (92 - 36) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h2 {
+    font-size: calc(24px + (54 - 24) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(32px + (62 - 32) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h3 {
+    font-size: calc(18px + (36 - 18) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(24px + (42 - 24) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h4 {
+    font-size: calc(16px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(22px + (32 - 24) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h5 {
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (2000 - 300)));
+    line-height: calc(20px + (22 - 20) * ((100vw - 300px) / (2000 - 300)));
+}
+
+h6 {
+    font-size: calc(16px + (18 - 16) * ((100vw - 800px) / (2000 - 800)));
+    line-height: calc(20px + (24 - 20) * ((100vw - 800px) / (2000 - 800)));
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: calc(27px + (85 - 28) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(35px + (92 - 36) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h2 {
+        font-size: calc(21px + (54 - 24) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(27px + (62 - 32) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h3 {
+        font-size: calc(18px + (36 - 18) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(23px + (42 - 24) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h4 {
+        font-size: calc(17px + (24 - 15) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(22px + (32 - 24) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h5 {
+        font-size: calc(16px + (18 - 14) * ((100vw - 300px) / (2000 - 300)));
+        line-height: calc(20px + (22 - 20) * ((100vw - 300px) / (2000 - 300)));
+    }
+
+    h6 {
+        font-size: calc(15px + (18 - 16) * ((100vw - 800px) / (2000 - 800)));
+        line-height: calc(20px + (24 - 20) * ((100vw - 800px) / (2000 - 800)));
+    }
+
+    body {
+        padding-top: 4.4rem;
+    }
 }
