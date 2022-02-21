@@ -229,6 +229,102 @@ if ($this->params->get('logoFile')) {
                 <jdoc:include type="component"/>
                 <div class="clearfix"></div>
                 <jdoc:include type="modules" name="position-2" style="none"/>
+
+                <div class="first_main_content">
+                    <div class="left_img">
+                        <img src="images/icons/headers/beruns_2_1200x801.jpg" alt="">
+                    </div>
+                    <div class="left_img_text align-self-center">
+                        <h3><span class="first_span_content">Fair</span> und <br>
+                            anspruchsvoll. <br>
+                             </h3>
+                        <a href="">Wer wir sind</a>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="second_main_content">
+                    <div class="right_img_text align-self-center">
+                        <h3>Jeder <span class="first_span_content">findet</span> <br>seinen Platz. <br>
+                             </h3>
+                        <a href="">Wen wir suchen </a>
+                    </div>
+                    <div class="right_img">
+                        <img src="images/icons/headers/Karriere_1_1200x801.jpg" alt="">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+                <h2 class="unsere_kunden">Was unsere <span class="first_span_content">Kunden</span> sagen</h2>
+                <br>
+                <br>
+                <br>
+                <!-- unsere kunden-->
+                <div class="first_column">
+                <div class="unsere_kunden_content ">
+                <div class="card">
+                    <img src="images/kunden/logo_bikedress.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            "So wie mit der Firma Redheads stelle ich mir die Zusammenarbeit mit einem Softwaredienstleister vor: professionell, termintreu und absolut kundengerecht."
+                            Heiko Wild, Inhaber Bikedress
+                        </p>
+                    </div>
+                </div>
+                    <div class="card">
+                        <img src="images/kunden/Siemens-Healthineers.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                "Durch die stets lösungsorientierte Beratung sowie dem Verständnis für unsere Prozesse, konnte Redheads gemeinsam mit unseren Kollegen bei der Anforderungsanalyse, Konzeptionierung und auch der Realisierung unseres Software-​Tools optimale Lösungen erarbeiten. Vielen Dank für die angenehme Zusammenarbeit!"
+                                Waltraud Zimmermann, Head of Exhibition-, Event-, Travel-Management Siemens AG, Healthcare Sector
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                    <div class="card">
+                        <img src="images/kunden/feedbit-batch.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">
+                                "Hohe Kompetenz gepaart mit Zuverlässigkeit, das zeichnet die Firma Redheads aus. Wir bedanken uns für die exzellente und vertrauensvolle Zusammenarbeit."
+
+                                Dr. Colin Roth, Geschäftsführer Feedbit Software GmbH
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/kunden/Witron_sw_klein.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            "Redheads hat die App hervorragend auf unsere Bedürfnisse zugeschnitten und hatte während des gesamten Projekts die Interessen unseres Unternehmens immer im Blick. Vielen Dank für die unkomplizierte Zusammenarbeit."
+
+                            Dominik Simbeck, Leiter Competence-Center Basis Projekt Support WITRON Logistik + Informatik GmbH
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <div class="card">
+            <img src="images/kunden/Wittenstein-Logo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">
+                    "Die Zusammenarbeit mit Redheads war auf allen Ebenen gelungen. Sowohl das Redheads-​Team als auch wir profitierten vom gegenseitigen Erfahrungsaustausch, sodass die Einführung einer neuen Technologie innerhalb der Termin-​ und Budgetvorgaben gelang. Die Kooperation war von einem hohen Maß an Fachwissen sowie gegenseitigem Vertrauen geprägt. Wir freuen uns auf weitere gemeinsame Projekte."
+                    Patrick Hantschel Wittenstein SE
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/kunden/TUEV-Rheinland.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">
+                    "Von der Anforderungsaufnahme über Implementierung bis Deployment und Support, vielen Dank für die optimale Realisierung unserer Software."
+                    Thomas Struller, IT-Beauftragter - Institut für Umweltgeologie und Altlasten GmbH TÜV Rheinland, LGA
+                </p>
+            </div>
+        </div>
+    </div>
+                </div>
                 <!-- End Content -->
             </main>
             <?php if ($position7ModuleCount) : ?>
