@@ -50,7 +50,54 @@ a {
     color: #F42F2A;
     filter: invert(32%) sepia(87%) saturate(4473%) hue-rotate(349deg) brightness(107%) contrast(92%);
 }
-
+.left_img {
+    margin-left: 12rem;
+}
+.left_img img {
+    width: 100%;
+    margin-left: -12%;
+}
+.left_img_text{
+    background-color: #DEE2E6;
+    height: fit-content;
+    padding: 20px;
+    margin-left: -15%;
+    text-align: center;
+}
+.first_main_content {
+    display: flex;
+}
+.second_main_content {
+    display: flex;
+    justify-content: end;
+}
+.right_img_text {
+    background-color: #DEE2E6;
+    height: fit-content;
+    padding: 20px;
+    text-align: center;
+    margin-right: -8%;
+    z-index: 1;
+}
+.first_span_content{
+    color: #F42F2A;
+}
+.right_img {
+    width: 75%;
+}
+.unsere_kunden {
+    text-align: center;
+}
+.card {
+    background-color: #F8F9FA;
+}
+.card img {
+    width: 5%;
+}
+.unsere_kunden_content {
+    display: flex;
+    flex-direction: column;
+}
 /* responsive */
 @media only screen and (max-width: 780px) {
     .wrapp_icons {
