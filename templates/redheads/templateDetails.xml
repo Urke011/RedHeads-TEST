@@ -20,12 +20,9 @@
 
 <positions>
   <position>navbar</position>
-  <position>icons</position>
-  <position>left_box</position>
-  <position>right_box</position>
+  <position>main</position>
   <position>advert</position>
   <position>bottom_box</position>
   <position>footer</position>
-
 </positions>
 </extension>
