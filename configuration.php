@@ -52,7 +52,7 @@ class JConfig {
 	public $MetaVersion = '0';
 	public $robots = '';
 	public $sef = '1';
-	public $sef_rewrite = '0';
+	public $sef_rewrite = '1';
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
@@ -99,5 +99,3 @@ class JConfig {
 	public $cookie_path = '';
 	public $asset_id = '1';
 }
-
-        

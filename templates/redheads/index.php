@@ -46,7 +46,16 @@
   </head>
   <body>
     <!-- navbar position-->
-    <jdoc:include type="modules" name="navbar" />
+    <header><nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid"><a href="#" class="navbar-brand">Carousel</a> <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+                <div id="navbarCollapse" class="collapse navbar-collapse menu_items">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <jdoc:include type="modules" name="menu" />
+                    </ul>
+                    <form class="d-flex"><input type="search" class="form-control me-2" placeholder="Search" aria-label="Search" /> <button type="submit" class="btn btn-outline-success">Search</button></form></div>
+            </div>
+        </nav></header>
+
     <!-- end navbar position-->
 
 

@@ -29,11 +29,16 @@
 	</files>
 
 	<positions>
-		<position>navbar</position>
-		<position>main</position>
-		<position>advert</position>
-		<position>bottom_box</position>
-		<position>footer</position>
+		<position>logo</position>
+		<position>menu</position>
+		<position>slideshow</position>
+		<position>top-a</position>
+		<position>top-b</position>
+		<position>top-c</position>
+		<position>bottom-a</position>
+		<position>bottom-b</position>
+		<position>right</position>
+		<position>offcanvas</position>
 	</positions>
 
 	<config>

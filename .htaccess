@@ -80,7 +80,7 @@ RewriteRule .* index.php [F]
 # Update Your Joomla! Directory (just / for root).
 ##
 
-# RewriteBase /
+ RewriteBase /RedHeads-TEST
 
 ## Begin - Joomla! core SEF Section.
 #

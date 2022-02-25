@@ -19,11 +19,12 @@ defined('_JEXEC') or die;
 /////////////// Menu PC / Tablette
 
 echo '<ul class="uk-navbar-nav uk-hidden-small"';
-if ($params->get('tag_id') != null) {
+if ($params->get('tag_id') != null) {// zasad je null
  $tag = $params->get('tag_id').'';
  echo ' id="'.$tag.'"';
 }
 echo '>';
+//$list svi menu linkovi
 
 foreach ($list as $i => &$item) {
  $class = 'item-'.$item->id;
@@ -64,6 +65,7 @@ foreach ($list as $i => &$item) {
  case 'url':
  case 'component':
  case 'heading':
+
  require JModuleHelper::getLayoutPath('mod_menu', 'default_'.$item->type);
  break;
 
@@ -92,7 +94,6 @@ echo '</ul>';
 echo '<a href="#uikid-'.$module->id.'" class="uk-visible-small uk-button uk-button-outline" data-uk-offcanvas>';
 echo '<i class="fa fa-bars"></i> ';
 echo '</a>';
-
 
 
 /////////////// Menu Mobile
@@ -134,7 +135,6 @@ foreach ($list as $i => &$item) {
  }
 
  echo '<li'.$class.$attr.'>';
-
  // Render the menu item.
  switch ($item->type) :
  case 'separator':

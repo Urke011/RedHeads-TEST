@@ -68,7 +68,9 @@ body {
   /* rtl:remove */
   letter-spacing: -.05rem;
 }
-
+.menu_items li {
+  padding-right: 10px;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */

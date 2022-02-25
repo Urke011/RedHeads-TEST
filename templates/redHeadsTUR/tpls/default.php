@@ -44,9 +44,9 @@ if ($pageClass) {
 } ?>">
 
 
+<div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 
-
-<?php include_once $blocks . '/navbar.php'; ?>
+<?php include_once $blocks . '/nav.php'; ?>
 <?php include_once $blocks . '/slideshow.php'; ?>
 <?php include_once $blocks . '/top-a.php'; ?>
 <?php include_once $blocks . '/top-b.php'; ?>
@@ -57,7 +57,7 @@ if ($pageClass) {
 <?php include_once $blocks . '/bottom-a.php'; ?>
 <?php include_once $blocks . '/bottom-b.php'; ?>
 
-
+</div>
 
 
 </body>
