@@ -12,13 +12,13 @@ jimport('joomla.filesystem.file');
 // Template Config
 $config = JPATH_THEMES . '/' . $this->template . '/config/config.php';
 if (JFile::exists($config)) {
-	include $config;
+    include $config;
 }
 
 // Layout override - by construct-framework.com
 $results = $layoutOverride->getIncludeFile();
 
 if ($results) {
-	$altLayout = $results;
-	include_once $altLayout;
-} 
+    $altLayout = $results;
+    include_once $altLayout;
+}
