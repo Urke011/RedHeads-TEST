@@ -130,7 +130,7 @@
 
     <jdoc:include type="modules" name="main"/>
     <jdoc:include type="component"/>
-    ///ZASTO KOMPONENTA??????
+    <!-- ZASTO KOMPONENTA -->
     <!-- end main position-->
 
 
