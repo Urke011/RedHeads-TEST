@@ -68,10 +68,41 @@ body {
   /* rtl:remove */
   letter-spacing: -.05rem;
 }
+/* navbar style */
 .menu_items li {
   padding-right: 10px;
 }
+.menu_items li a {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+}
+.col a img{
+  width: 55px;
+}
+.menu_items li a:hover {
+  color: #0a0e14;
+}
+/* nije hover boja svuda ista */
 
+
+/* main content style */
+.item-page {
+  margin-top: 35px;
+}
+.jumbotron_img img {
+ width: 100%;
+}
+.icons_four_row {
+ text-align: center;
+}
+.icons_four_row a {
+  text-decoration: none;
+  color: #0a0e14;
+}
+.icons_four_row a:hover {
+  color: #F42F2A;
+  filter: invert(32%) sepia(87%) saturate(4473%) hue-rotate(349deg) brightness(107%) contrast(92%);
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
