@@ -74,15 +74,15 @@
 
 <main>
     <article class="article_container">
-    <!-- path to images
+        <!-- path to images
     <img src="<?php //echo $this->baseurl ?>/images/icons/headers/Gebude_2_1920x1280.jpg" alt="no pic">
     -->
 
-    <!-- main position-->
+        <!-- main position-->
 
-    <jdoc:include type="component"/>
-    <!--ZASTO KOMPONENTA-->
-    <!-- end main position-->
+        <jdoc:include type="component"/>
+        <!--ZASTO KOMPONENTA-->
+        <!-- end main position-->
     </article>
 </main>
 
