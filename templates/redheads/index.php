@@ -77,12 +77,30 @@
         <!-- path to images
     <img src="<?php //echo $this->baseurl ?>/images/icons/headers/Gebude_2_1920x1280.jpg" alt="no pic">
     -->
-
         <!-- main position-->
-
         <jdoc:include type="component"/>
         <!--ZASTO KOMPONENTA-->
         <!-- end main position-->
+
+        <div class="container">
+            <div class="row justify-content-md-center">
+        <div class="card mb-3 box_row" style="max-width: 100%;">
+            <div class="row g-0">
+                <div class="col-md-8 left_div">
+                    <img src="images/icons/headers/beruns_2_1200x801.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-5 right_div">
+                    <div class="card-body ">
+                        <h2>Fair und <br>
+                            anspruchsvoll <br>
+                        </h2>
+                        <a href="#">Wer wir sind </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
     </article>
 </main>
 

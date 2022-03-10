@@ -103,6 +103,18 @@ body {
   color: #F42F2A;
   filter: invert(32%) sepia(87%) saturate(4473%) hue-rotate(349deg) brightness(107%) contrast(92%);
 }
+.box_row {
+  border: none;
+}
+.right_div {
+  width: auto;
+  align-self: center;
+  background-color: #DEE2E6;
+  position: relative;
+  right: 7%;
+  text-align: center;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -122,5 +134,11 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+@media (max-width: 766px) {
+  .right_div  {
+    position: relative;
+    right: 0;
   }
 }
